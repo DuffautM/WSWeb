@@ -1,0 +1,146 @@
+	*{
+		font-family: Calibri;
+	}
+
+	body{
+		background-color: #e6e6e6;
+	}
+
+	header{
+		background: #999999;
+		padding-left: 10px;
+		padding-bottom: 5px;
+		width: 75%;
+		color: #99c2ff;
+	}
+
+	h1{
+		padding-top:5px;
+	}
+
+	h3{
+		margin-left: 10px;
+	}
+
+	#textheader{
+		min-height: 145px;
+	}
+
+	#logo{
+		width: 128px;
+		height: 128px;
+		border: 1px solid black;
+		float: left;
+		margin-top: 10px;
+		margin-right: 30px;
+
+	}
+
+	#panier{
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		background-color: white;
+		border: 1px solid black;
+		width: 20%;
+		height: 200px;
+	}
+
+	#butpanier{
+		position: absolute;
+		left: 50%;
+		margin-left: -57.3px;
+		bottom: 10%;
+
+	}
+
+	#row{
+		width: 75%;
+		/*display: inline;*/
+		display: inline-flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: space-between;
+		padding-left: 10px;
+		margin-top: 20px;
+		margin-bottom: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.col-lg-12{
+		border: 2px solid #000000;
+		min-width: 150px;
+		width: 100%;
+		text-align: center;
+		background-color: white;
+		margin-bottom: 10px;
+		text-decoration: none;
+	}
+
+	.col-lg-12:hover{
+		border: 2px solid #000000;
+		min-width: 150px;
+		width: 100%;
+		text-align: center;
+		background-color: #e6e6e6;
+		margin-bottom: 10px;
+		text-decoration: none;
+	}
+
+	.pic{
+		display: block;
+		float: left;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: auto;
+		margin-bottom: 10px;
+		width: 128px;
+		height: 128px;
+	}
+
+	a{
+		float: left;
+		padding-left: 40px;
+		font-size: 40px;
+	}
+
+	a:link{
+		float: left;
+		padding-left: 40px;
+		font-size: 40px;
+		text-decoration: none;
+		color: #4d94ff;
+	}
+
+	a:active{
+		float: left;
+		padding-left: 40px;
+		font-size: 40px;
+		text-decoration: none;
+		color: #4d94ff;
+	}
+
+	a:hover{
+		float: left;
+		padding-left: 40px;
+		font-size: 40px;
+		text-decoration: none;
+		color: #1a75ff;
+	}
+
+	.product{
+		text-align: left;
+		padding-top: 40px;
+		padding-left: 178px;
+	}
+
+	#searchbar[type=text]{
+		width: 100px;
+		align-self: center;
+		-webkit-transition: width 0.8s ease-in-out;
+	}
+
+	#searchbar[type=text]:focus{
+		width: 200px;
+	}
